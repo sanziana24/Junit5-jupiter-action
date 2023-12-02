@@ -4,12 +4,10 @@ import static org.junit.platform.engine.discovery.DiscoverySelectors.selectClass
 import static org.junit.platform.engine.discovery.DiscoverySelectors.selectPackage;
 
 import java.io.PrintWriter;
-import org.junit.platform.launcher.core.LauncherDiscoveryRequestBuilder;
-import org.junit.platform.launcher.core.LauncherFactory;
-import org.junit.platform.launcher.listeners.SummaryGeneratingListener;
 
 public class JUnit5CustomLauncher {
 
+    /*
     public static void main(String[] args) {
 
         //define a launch discovery request builder and select the source code
@@ -31,5 +29,5 @@ public class JUnit5CustomLauncher {
         //after the trigger complette, we get info from listeners
         listener.getSummary().printTo(new PrintWriter(System.out));
     }
-
+*/
 }
