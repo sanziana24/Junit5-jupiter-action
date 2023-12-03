@@ -55,7 +55,8 @@
                     <environmentVariables>
                         <ENV>sit</ENV>
                     </environmentVariables>
-                    <groups>dev|sit</groups>
+                    <groups>group1|group2|group3</groups>
+<!--                    <groups>dev|sit</groups>-->
                     <excludedGroups>prod</excludedGroups>
                 </configuration>
             </plugin>
